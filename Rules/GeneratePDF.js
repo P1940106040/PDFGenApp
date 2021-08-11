@@ -121,7 +121,7 @@ export default function GenerateQRCode(context) {
 			//Once the file is saved, try to open it
 			// Note if the write failed, this action will fail too.
 			context.executeAction({
-				"Name": "/PDFGeneratorApp/Actions/OpenDocument.action",
+				"Name": "/PDFGeneratorApp/Actions/ClosePage.action",
 				"Properties": {
 					"Path": filePath
 				}
